@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        /* Seção Entretenimento */
+        .section-entertainment {
+            background-color: #f8d7da;
+        }
+        .section-entertainment h2 {
+            color: #721c24;
+        }
+        /* Seção Tecnologia */
+        .section-technology {
+            background-color: #d1ecf1;
+        }
+        .section-technology h2 {
+            color: #0c5460;
+        }
+        .news-item {
+            margin-bottom: 20px;
+        }
+        .news-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .news-item h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .news-item p {
+            color: #555;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .col {
+            flex: 1;
+            min-width: 250px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <section class="section section-entertainment">
+        <h2>Entretenimento</h2>
+        <div class="row">
+            <div class="col">
+                <article class="news-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Notícia de Entretenimento 1">
+                    <h3>Filme Blockbuster Estreia Hoje</h3>
+                    <p>Confira os detalhes sobre a estreia mais aguardada do ano...</p>
+                </article>
+            </div>
+            <div class="col">
+                <article class="news-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Notícia de Entretenimento 2">
+                    <h3>Show Ao Vivo</h3>
+                    <p>Veja como foi o show mais esperado do ano, com performances incríveis...</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section section-technology">
+        <h2>Tecnologia</h2>
+        <div class="row">
+            <div class="col">
+                <article class="news-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Notícia de Tecnologia 1">
+                    <h3>Lançamento do Novo Smartphone</h3>
+                    <p>A nova geração de smartphones chega com funcionalidades inovadoras...</p>
+                </article>
+            </div>
+            <div class="col">
+                <article class="news-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Notícia de Tecnologia 2">
+                    <h3>Robótica e IA no Dia a Dia</h3>
+                    <p>A robótica e a inteligência artificial estão mudando o cotidiano das pessoas...</p>
+                </article>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
